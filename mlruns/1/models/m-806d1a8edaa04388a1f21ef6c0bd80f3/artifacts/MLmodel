@@ -1,0 +1,23 @@
+artifact_path: /Users/govils/Desktop/Duke/AIPI 510/Week 12/mlruns/1/models/m-806d1a8edaa04388a1f21ef6c0bd80f3/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.14
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.18.0
+model_id: m-806d1a8edaa04388a1f21ef6c0bd80f3
+model_size_bytes: 12749
+model_uuid: m-806d1a8edaa04388a1f21ef6c0bd80f3
+prompts: null
+run_id: 329744bdf7b246e7919a83c913335393
+utc_time_created: '2026-11-10 17:36:12.635815'
